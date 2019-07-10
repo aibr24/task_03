@@ -4,6 +4,10 @@
         <meta charset="utf-8">
         <title>List</title>
     </head>
+    	{%for item in my_list%}
+    	<h2>{{item.restaurant_name}}</h2>
+    	<p>{{item.food_type}}</p>
+    	{% endfor %}
     <body>
 
     </body>
